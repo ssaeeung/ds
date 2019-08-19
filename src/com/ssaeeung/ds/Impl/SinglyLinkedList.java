@@ -1,12 +1,14 @@
-package com.ssaeeung.ds.type;
+package com.ssaeeung.ds.Impl;
+
+import com.ssaeeung.ds.base.ListNode;
 
 public class SinglyLinkedList {
 	
 	public static void main(String[] args) {
-		ListNode a = new ListNode(new Integer(1));
-		ListNode b = new ListNode(new Integer(4));
-		ListNode c = new ListNode(new Integer(9));
-		ListNode d = new ListNode(new Integer(13));
+		ListNode a = new ListNode(Integer.valueOf(1));
+		ListNode b = new ListNode(Integer.valueOf(4));
+		ListNode c = new ListNode(Integer.valueOf(9));
+		ListNode d = new ListNode(Integer.valueOf(13));
 		
 		a.next = b;
 		b.next = c;
@@ -51,15 +53,6 @@ public class SinglyLinkedList {
 			current = current.next;
 		}
 		return sb.toString();
-	}
-
-	
-	public static class ListNode extends Node{
-		ListNode next;
-		
-		public ListNode(Object val) {
-			super(val);
-		}
 	}
 	
 }

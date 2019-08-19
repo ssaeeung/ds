@@ -1,4 +1,6 @@
-package com.ssaeeung.ds.type;
+package com.ssaeeung.ds.Impl;
+
+import com.ssaeeung.ds.base.Node;
 
 public class DoublyLinkedList {
 	

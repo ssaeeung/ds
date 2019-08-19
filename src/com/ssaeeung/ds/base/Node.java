@@ -1,4 +1,4 @@
-package com.ssaeeung.ds.type;
+package com.ssaeeung.ds.base;
 
 
 public class Node {
